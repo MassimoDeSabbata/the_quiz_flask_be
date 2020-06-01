@@ -1,6 +1,7 @@
 from flask import Flask, session, g
 from flask_socketio import SocketIO
 from flask_socketio import send, emit, rooms
+from flask_cors import CORS, cross_origin
 import re
 import uuid
 import base64
@@ -10,6 +11,9 @@ import time
 # initial app setup
 
 app = Flask(__name__)
+
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Configuring bidirectional connection server with socketIO
 app.config['SECRET_KEY'] = 'secret!'
