@@ -13,7 +13,6 @@ import time
 app = Flask(__name__)
 
 cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Configuring bidirectional connection server with socketIO
 app.config['SECRET_KEY'] = 'secret!'
