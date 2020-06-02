@@ -146,4 +146,5 @@ def handle_reservation_counter(data):
 
 
 if __name__ == '__main__':
-    app.run()
+    # app.run()
+    socketio.run()
