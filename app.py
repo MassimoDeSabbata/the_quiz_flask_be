@@ -16,7 +16,7 @@ cors = CORS(app)
 
 # Configuring bidirectional connection server with socketIO
 app.config['SECRET_KEY'] = 'secret!'
-socketio = SocketIO(app, cors_allowed_origins="*")
+socketio = SocketIO(app, cors_allowed_origins="*", logger=True, engineio_logger=True)
 
 # ---- USERS LOGGING IN AND OUT ----
 

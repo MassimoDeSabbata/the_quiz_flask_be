@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad126f6e-cc78-48e6-96ca-f59cffa9a808" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <workItem from="1590936403509" duration="1405000" />
       <workItem from="1590947884323" duration="503000" />
       <workItem from="1591015780623" duration="5388000" />
-      <workItem from="1591035853078" duration="2965000" />
+      <workItem from="1591035853078" duration="3664000" />
     </task>
     <servers />
   </component>
@@ -149,10 +150,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="334" y="72" width="612" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1590596144515" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1591023157312">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1591094773906">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591023157312" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1591094773906" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
