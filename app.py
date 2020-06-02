@@ -7,6 +7,7 @@ import uuid
 import base64
 import json
 import time
+import sys
 
 # initial app setup
 
@@ -32,13 +33,13 @@ def default_error_handler(e):
 # the new user login
 @socketio.on('newUserRequest')
 def handle_new_user_request(newUserData):
-    print("RECIVED NEW USER")
+    print("RECIVED NEW USER", file=sys.stdout)
     newUserData['userId'] = str(uuid_url64())
     session['userId'] = newUserData['userId']
     session['counter'] = False
     emit('newUserOk', json.dumps(newUserData))
     emit('newUser', json.dumps(newUserData), broadcast=True)
-    print("EMITTED USER OK")
+    print("EMITTED USER OK", file=sys.stdout)
 
 
 # When a user logs in the client request for the list of the users, this request
