@@ -37,6 +37,7 @@ def handle_new_user_request(newUserData):
     session['counter'] = False
     emit('newUserOk', json.dumps(newUserData))
     emit('newUser', json.dumps(newUserData), broadcast=True)
+    print("EMITTED USER OK")
 
 
 # When a user logs in the client request for the list of the users, this request
