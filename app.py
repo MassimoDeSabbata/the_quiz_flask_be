@@ -32,6 +32,7 @@ def default_error_handler(e):
 # the new user login
 @socketio.on('newUserRequest')
 def handle_new_user_request(newUserData):
+    print("RECIVED NEW USER")
     newUserData['userId'] = str(uuid_url64())
     session['userId'] = newUserData['userId']
     session['counter'] = False
